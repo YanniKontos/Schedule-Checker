@@ -1,0 +1,15 @@
+{
+    "background_color": "blue",
+    "description": "",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "/icon/calendar-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "Schedule Checker",
+    "short_name": "",
+    "start_url": "/main/desktop.html"
+  }
