@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bs-gray-700);
+    color: var(--bs-gray-200);
+}

@@ -11,9 +11,30 @@
     <script src="/sw.js"></script>
     <link rel="stylesheet" href="/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <body>
-    <h1></h1>
+
+    <div class="main-login-form w-100 h-100 d-flex flex-column justify-content-center align-items-center place-items-center">
+        <h1 class="fw-bold text-center pb-4 hr">👋 Hello, <a href="#">User</a></h1>
+
+        <form>
+            <div class="mb-3 container-md">
+                <label class="form-label fs-4"><i class="fi fi-rr-user"></i> <span class="fs-3">Username</span></label>
+                <input type="username" class="form-control ">
+            </div>
+            <div class="mb-3 container-md">
+                <label class="form-label fs-4"><i class="fi fi-rr-lock"></i> <span class="fs-3">Password</span></label>
+                <input type="password" class="form-control">
+            </div>
+            <div class="mb-3 fw-semibold fs-4">
+                <label class="container-md">Don't Have An Account? - Sign up <a href="#">Here</a></label>
+            </div>
+            <button type="submit" class="btn btn-primary m-auto d-flex">Submit</button>
+        </form>
+
+    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
