@@ -1,2 +1,2 @@
 # Schedule-Checker
-#PWA To Check Other's Availability
+*PWA To Check Other's Availability
