@@ -5,6 +5,15 @@
 }
 
 body {
-    background-color: var(--bs-gray-700);
+    background-color: #15171a;
     color: var(--bs-gray-200);
+}
+
+.month-change {
+    border: none;
+    color: #15db96e0;
+}
+
+.year-header {
+    color: #b23850;
 }
