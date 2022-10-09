@@ -21,17 +21,70 @@
                <h1 class="fw-bold text-left">October <span class="year-header">2022</span></h1>
                <h2 class="d-flex user-select-none">
                    <button class="btn bg-transparent month-change" type="button">
-                       <i class="fi fi-rr-caret-left fs-1"></i>
+                       <i class="fi fi-rr-caret-left fs-1" id="reverseMonth"></i>
                     </button>
                     <button class="btn bg-transparent month-change" type="button">
-                        <i class="fi fi-rr-caret-right fs-1"></i>
+                        <i class="fi fi-rr-caret-right fs-1" id="forwardMonth"></i>
                     </button>
                 </h2>
             </header>
-            <div class="container-fluid calendar h-75 py-4">
-                <ul class="d-flex flex-row">
-
-                </ul>
+            <div class="table-responsive h-100 py-2">
+                <table class="table table-borderless fs-3">
+                    <thead>
+                        <tr class='text-center'>
+                            <th class="weekdays">Mon</th>
+                            <th class="weekdays">Tue</th>
+                            <th class="weekdays">Wed</th>
+                            <th class="weekdays">Thu</th>
+                            <th class="weekdays">Fri</th>
+                            <th class="weekdays">Sat</th>
+                            <th class="weekdays">Sun</th>
+                        </tr>
+                    </thead>
+                    <tbody class="days-body">
+                        <tr class="days-set text-center">
+                            <td class="days" role="button">1</td>
+                            <td class="days" role="button">2</td>
+                            <td class="days" role="button">3</td>
+                            <td class="days" role="button">4</td>
+                            <td class="days" role="button">5</td>
+                            <td class="days" role="button">6</td>
+                            <td class="days" role="button">7</td>
+                        </tr>
+                        <tr class="days-set text-center"> 
+                            <td class="days" role="button">8</td>
+                            <td class="days" role="button">9</td>
+                            <td class="days" role="button">10</td>
+                            <td class="days" role="button">11</td>
+                            <td class="days" role="button">12</td>
+                            <td class="days" role="button">13</td>
+                            <td class="days" role="button">14</td>
+                        </tr>
+                        <tr class="days-set text-center">
+                            <td class="days" role="button">15</td>
+                            <td class="days" role="button">16</td>
+                            <td class="days" role="button">17</td>
+                            <td class="days" role="button">18</td>
+                            <td class="days" role="button">19</td>
+                            <td class="days" role="button">20</td>
+                            <td class="days" role="button">21</td>
+                        </tr>
+                        <tr class="days-set text-center">
+                            <td class="days" role="button">22</td>
+                            <td class="days" role="button">23</td>
+                            <td class="days" role="button">24</td>
+                            <td class="days" role="button">25</td>
+                            <td class="days" role="button">26</td>
+                            <td class="days" role="button">27</td>
+                            <td class="days" role="button">28</td>
+                        </tr>
+                        <tr class="days-set text-center">
+                            <td class="days" role="button">29</td>
+                            <td class="days" role="button">30</td>
+                            <td class="days" role="button">31</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>

@@ -11,9 +11,13 @@ body {
 
 .month-change {
     border: none;
-    color: #15db96e0;
+    color: #15DB95;
 }
 
 .year-header {
     color: #b23850;
+}
+
+.table {
+    color: var(--bs-gray-200);
 }
