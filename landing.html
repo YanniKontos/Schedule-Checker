@@ -9,14 +9,39 @@
     <link rel="manifest" href="/desktop-config/manifest.webmanifest"/>
     <script src="/main.js" defer></script>
     <script src="/sw.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     <link rel="stylesheet" href="/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
-    <main class="main-login-form w-100 h-100 d-flex flex-column justify-content-center align-items-center place-items-center">
-        <div class="container-md h-50">
+    <div class="container-fluid sticky-top d-flex align-items-center justify-content-around" style="height: 8vh;">
+        <div class="section-1">
+            <i class="fi fi-brands-github fs-1"></i>
+        </div>
+
+        <div class="section-2 fs-2 user-select-all">
+            <i class="fi fi-rr-search"></i>
+            <i class="fi fi-rr-paper-plane"></i>
+            someting here
+        </div>
+
+        <div class="section-3">
+            <header>
+                
+            </header>
+        </div>
+    </div>
+
+    <div class="user-greetings text-center" style="height: 10vh;">
+        <h1>Welcome, <span>Yanni</span> </h1>
+    </div>
+
+    <main class="main-login-form w-100 h-75 d-flex flex-column justify-content-center align-items-center place-items-center">
+        <div class="container-md h-75">
             <header class="d-flex flex-row align-items-center justify-content-between">
                <h1 class="fw-bold text-left">October <span class="year-header">2022</span></h1>
                <h2 class="d-flex user-select-none">
@@ -28,7 +53,7 @@
                     </button>
                 </h2>
             </header>
-            <div class="table-responsive h-100 py-2">
+            <div class="table-responsive h-100 py-2 table-bgs">
                 <table class="table table-borderless fs-3">
                     <thead>
                         <tr class='text-center'>
