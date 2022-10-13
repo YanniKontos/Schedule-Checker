@@ -18,26 +18,23 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
-    <div class="container-fluid sticky-top d-flex align-items-center justify-content-around" style="height: 8vh;">
-        <div class="section-1">
-            <i class="fi fi-brands-github fs-1"></i>
+    <div class="nav-container container-fluid sticky-top d-flex align-items-center justify-content-evenly fs-2" style="height: 8vh; backdrop-filter: blur( 4px )">
+        <div class="section-1 section fs-1" id="sectionOne">
+            <a class="text-decoration-none link-light nav-buttons" id="githubButton" href="https://github.com/YanniKontos" target="_blank" aria-placeholder="My Github"><i class="fi fi-brands-github"></i></a>
         </div>
 
-        <div class="section-2 fs-2 user-select-all">
-            <i class="fi fi-rr-search"></i>
-            <i class="fi fi-rr-paper-plane"></i>
-            someting here
+        <div class="section-2 section user-select-all" id="sectionTwo">
+           <a class="text-decoration-none link-light nav-buttons" id="groupButton" href="" aria-placeholder="Your Group"><i class="fi fi-rr-users-alt"></i></a>
         </div>
 
-        <div class="section-3">
-            <header>
-                
-            </header>
+        <div class="section-3 section" id="sectionThree">
+                <a class="text-decoration-none link-light nav-buttons" id="ProfileButton" href="" aria-placeholder="Profile"><i class="fi fi-rr-user"></i></a>
         </div>
     </div>
 
-    <div class="user-greetings text-center" style="height: 10vh;">
-        <h1>Welcome, <span>Yanni</span> </h1>
+    <div class="user-greetings text-center">
+        <h1 class="display-4"><span id="wave-emoji">👋</span> Welcome, <span id="nameHeader">Yanni</span></h1>
+        <h5> => when are you <span class="text-info">busy?</span></h5>
     </div>
 
     <main class="main-login-form w-100 h-75 d-flex flex-column justify-content-center align-items-center place-items-center">
@@ -113,5 +110,16 @@
             </div>
         </div>
     </main>
+
+    <hr>
+    <footer class="footer-section w-100 h-25">
+        <div class="socials d-flex fs-1">
+            <i class="fi fi-brands-linkedin"></i>
+            <i class="fi fi-brands-twitter"></i>
+        </div>
+        <div class="copyright">
+            <h4>&copy Yannis Kontos 2022</h4>
+        </div>
+    </footer>
 </body>
 </html>

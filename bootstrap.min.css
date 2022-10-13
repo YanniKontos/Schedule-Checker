@@ -21,3 +21,17 @@ body {
 .table {
     color: var(--bs-gray-200);
 }
+
+.nav-container {
+    background: #ffffff04;
+}
+
+.user-greetings {
+    position: relative;
+    margin-top: 5em;
+    font-family: monospace;
+}
+
+.days:hover {
+    background: #2626a031;
+}
