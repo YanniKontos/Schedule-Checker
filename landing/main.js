@@ -26,11 +26,8 @@ function animateIcons() {
 };
 
 function randomizeColors() {
-    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    let generatedNum = Math.random().toString().substring(2,8)
-    let combinedNumLetters = letters + generatedNum; 
-    let generatedLetters = combinedNumLetters[Math.floor(Math.random() * combinedNumLetters.length)];
-    console.log(generatedLetters);
+    let colorGeneration = `#${Math.floor(Math.random() * 0xffffff).toString(16)}`;
+    nameHeader.style.color = colorGeneration; 
 };
 
 function previousMonth(){

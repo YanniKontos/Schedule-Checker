@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+.section {
+    transform: translateY(-50%);
+}
+
+.animation-one {
+    transform: translateY(5%);
+    transition: 0.27s ease-out;
+}
+
+.animation-two {
+    transform: translateY(5%);
+    transition: 0.39s ease-in;
+}
+
+.animation-three {
+    transform: translateY(5%);
+    transition: 0.48s ease-in;
+}

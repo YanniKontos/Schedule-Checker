@@ -15,7 +15,7 @@ formSubmitBtn.addEventListener("click", (e) => {
     formInputOne.value === defaultUser ? loginArr.push(defaultUser) : null;
     formInputTwo.value === defaultPass ? loginArr.push(defaultPass) : null;
     
-   loginArr.includes(defaultUser && defaultPass) ? location.href = "landing.html" : null;
+   loginArr.includes(defaultUser && defaultPass) ? location.href = "/landing/landing.html" : null;
     
 });
 
