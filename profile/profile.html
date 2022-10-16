@@ -21,7 +21,7 @@
 <body>
     <nav class="nav-container container-fluid sticky-top d-flex align-items-center justify-content-evenly fs-2" style="height: 8vh; backdrop-filter: blur( 4px )">
         <div class="section-1 section" id="sectionOne">
-            <a class="text-decoration-none link-light nav-buttons" id="homeButton" href="/landing/landing.html" aria-placeholder="Home"><i class="fi fi-sr-home"></i></a>
+            <a class="text-decoration-none link-light nav-buttons" id="homeButton" href="/landing/landing.html" aria-placeholder="Home"><i class="fi fi-rr-home"></i></a>
         </div>
 
         <div class="section-2 section user-select-all" id="sectionTwo">
@@ -29,8 +29,44 @@
         </div>
 
         <div class="section-3 section" id="sectionThree">
-            <a class="text-decoration-none link-light nav-buttons" id="profileButton" href="/profile/profile.html" aria-placeholder="Profile"><i class="fi fi-sr-user"></i></a>
+            <a class="text-decoration-none link-light nav-buttons" id="profileButton" href="/profile/profile.html" aria-placeholder="Profile"><i class="fi fi-rr-user"></i></a>
         </div>
     </nav>
+
+    <main class="w-100 d-flex flex-column justify-content-center align-items-center place-items-center" style="height: 87vh">
+        <div class="card text-bg-dark rounded container-md" style="height: 80vh;">
+            <img class="bg-secondary w-100 rounded-top pfp-banner user-select-none" style="height: 20vh;" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Grey_background.jpg">
+            <div class="card-body" style="height: 30vh;">
+                <header class="py-5">
+                    <img class="border border-dark rounded-circle border-5 mx-3 my-3 pfp-header" src="/icon/pfp.png" width="152px" height="152px" role="button">
+                    <h3 class="card-title mx-2 my-2">Yannis Kontos</h3>
+                    <p class="card-text mx-4 fs-5" id="bioInformation">hello my name is yanni and i enjoy humungous olo</p>
+                    <p class="card-text mx-4 fs-5 d-flex gap-2"><i class="fi fi-rr-marker user-select-all"></i><span>United Kingdom</span></p>
+                </header>
+            </div>
+            <ul class="list-group list-group-flush text-bg-dark">
+                <li class="list-group-item text-bg-dark">An item</li>
+                <li class="list-group-item text-bg-dark">A second item</li>
+                <li class="list-group-item text-bg-dark">A third item</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+    <footer class="footer-section w-100 d-flex gap-4 fs-1 align-items-center justify-content-center" style="height: 10vh">
+        <div class="socials">
+            <a class="text-decoration-none link-light" href="https://www.linkedin.com/in/yannis-kontos-1a2358238/" target="_blank"><i class="fi fi-brands-linkedin"></i></a>
+            <a class="text-decoration-none link-light" href="https://twitter.com/Yanni_Kontos" target="_blank"><i class="fi fi-brands-twitter"></i></a>
+            <a class="text-decoration-none link-light" href="https://github.com/YanniKontos" target="_blank"><i class="fi fi-brands-github"></i></a>
+        </div>
+        <div class="copyright">
+            <h4>&copy 2022, Yannis Kontos</h4>
+        </div>
+    </footer>
+
 </body>
 </html>

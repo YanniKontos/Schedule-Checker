@@ -1,4 +1,6 @@
 const navButtons = document.querySelectorAll(".nav-buttons");
+const bioInformation = document.getElementById("bioInformation");
+const bioChange = document.getElementById("bioChange");
 
 document.addEventListener("DOMContentLoaded", animateIcons);
 
@@ -16,3 +18,4 @@ navButtons.forEach(button => {
         });
     });
 });
+

@@ -35,3 +35,18 @@ body {
 .days:hover {
     background: #1c1c7c69;
 }
+
+.pfp-banner {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+.pfp-header {
+    position: relative;
+    z-index: 3;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
